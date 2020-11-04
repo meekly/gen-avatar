@@ -1,4 +1,6 @@
 FROM python:3
+# We can move compiled libraries into new docker image and use python:3-slim for example.
+# This will reduce the size
 
 # Install dependencies
 COPY requirements.txt .
