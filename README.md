@@ -1,6 +1,10 @@
-identidock
-==========
+### Author: Kiselev Valentin
 
-Simple identicon server based on monsterid from Kevin Gaudin.
+#### Test task for Задание 5. Практикум разработки с Docker
 
-From "Using Docker" by Adrian Mouat published by O'Reilly media.
+Развёртывание:
+```
+docker-compose build
+docker-compose up -d # development версия, статистика получается с помощью 'telnet localhost 9191'
+docker-compose -f docker-compose-production.yml up -d # production версия
+```
